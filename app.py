@@ -1,11 +1,8 @@
+from pathlib import Path
+
+fichier = Path("/data/stock.txt")
 
 print("=== Gestion de Stock ===")
 
-produit = "Clavier"
-quantite = 15
-prix = 45.0
-
-print("Produit :", produit)
-print("Quantite :", quantite)
-print("Prix unitaire :", prix, "DT")
-print("Valeur du stock :", quantite * prix, "DT")
+for ligne in fichier.read_text().splitlines():
+    print(ligne)
