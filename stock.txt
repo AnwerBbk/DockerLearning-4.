@@ -1,0 +1,3 @@
+Clavier,15,45
+Souris,20,25
+Ecran,5,350
