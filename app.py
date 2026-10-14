@@ -2,7 +2,7 @@
 print("=== Gestion de Stock ===")
 
 produit = "Clavier"
-quantite = 10
+quantite = 15
 prix = 45.0
 
 print("Produit :", produit)
